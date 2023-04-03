@@ -1,4 +1,11 @@
 import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
+export interface IButtonProps {
+  color?: string;
+}
+export const Button = (props: IButtonProps) => {
+  return (
+    <button style={{ background: props.color }}>
+      <p>This is shared component sssss</p>
+    </button>
+  );
 };
