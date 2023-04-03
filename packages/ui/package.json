@@ -1,7 +1,6 @@
 {
   "name": "@tusphananh/ui",
-  "version": "2.0.0",
-  "private": true,
+  "version": "2.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.mjs",
@@ -17,7 +16,8 @@
   "scripts": {
     "lint": "eslint *.ts*",
     "build": "tsup index.tsx --format cjs,esm --dts --external react,react-dom",
-    "dev": "npm run build -- --watch"
+    "dev": "npm run build -- --watch",
+    "publish": "changeset publish"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
@@ -27,5 +27,8 @@
     "react": "^18.2.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
