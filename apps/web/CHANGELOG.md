@@ -5,4 +5,4 @@
 ### Patch Changes
 
 - Updated dependencies [8f99885]
-  - ui@1.0.0
+  - @tusphananh/ui@1.0.0

@@ -1,4 +1,4 @@
-# ui
+# @tusphananh/ui
 
 ## 1.0.0
 
