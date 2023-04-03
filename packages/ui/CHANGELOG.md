@@ -1,5 +1,11 @@
 # @tusphananh/ui
 
+## 2.0.0
+
+### Major Changes
+
+- 02faa3f: Dasdasds
+
 ## 1.0.0
 
 ### Major Changes
