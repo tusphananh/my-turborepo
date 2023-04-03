@@ -1,5 +1,13 @@
 # docs
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [cffd2b2]
+- Updated dependencies [9a6525b]
+  - @tusphananh/ui@4.0.0
+
 ## 0.0.4
 
 ### Patch Changes
