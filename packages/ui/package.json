@@ -12,8 +12,7 @@
   "scripts": {
     "lint": "eslint *.ts*",
     "build": "tsup index.tsx --format cjs,esm --dts --external react,react-dom",
-    "dev": "npm run build -- --watch",
-    "publish": "changeset publish"
+    "dev": "npm run build -- --watch"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
