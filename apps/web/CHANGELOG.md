@@ -1,5 +1,12 @@
 # web
 
+## 0.0.6
+
+### Patch Changes
+
+- Updated dependencies [6d5e146]
+  - @tusphananh/ui@5.0.0
+
 ## 0.0.5
 
 ### Patch Changes
