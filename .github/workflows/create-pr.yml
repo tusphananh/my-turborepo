@@ -1,0 +1,21 @@
+# When merged to main, publish to npm by changesets
+name: Publish
+on:
+  push:
+    branches:
+      - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create Release Pull Request
+        id: changesets
+        uses: changesets/action@v1
+        commit: "ci(changesets): version packages"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
