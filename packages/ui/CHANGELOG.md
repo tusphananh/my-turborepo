@@ -1,5 +1,11 @@
 # @tusphananh/ui
 
+## 7.0.0
+
+### Major Changes
+
+- 735a3dd: test
+
 ## 6.0.0
 
 ### Major Changes
