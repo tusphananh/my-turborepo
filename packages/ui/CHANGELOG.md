@@ -1,5 +1,12 @@
 # @tusphananh/ui
 
+## 6.0.0
+
+### Major Changes
+
+- 2020535: terst
+- 0c89c1e: test
+
 ## 5.0.0
 
 ### Major Changes
